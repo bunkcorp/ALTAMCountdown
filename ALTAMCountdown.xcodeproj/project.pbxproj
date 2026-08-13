@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1795C34BBC56FE8DF0B2607E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D41397D11711AC29C48D9B /* SwiftUI.framework */; };
+		238850D9937ACC3B68370339 /* ALTAMCountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212CB7FF8256B0B1388E3F0B /* ALTAMCountdownApp.swift */; };
+		255F457A1C392888F2CE0230 /* ThemeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004EFAFBD00C0AD7653C3DD /* ThemeStore.swift */; };
+		2E446AA33322FDE29A866F2A /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107E11F29FBB87EE3868ED4 /* WidgetTheme.swift */; };
+		39015BCADF80DF4C82F13D39 /* MenuBarCountdownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A6449BCD1AD076BD52BBD /* MenuBarCountdownController.swift */; };
+		4A6ED0B992056C66F4735E46 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107E11F29FBB87EE3868ED4 /* WidgetTheme.swift */; };
+		5D72882F5FEEC75E338370BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B1F366C6438AA4C34006A /* Assets.xcassets */; };
+		64C352AEE180DFD501466687 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE33A466338F7C68FF36988 /* WidgetKit.framework */; };
+		6AB474BEA3C97BBA0B512F35 /* ALTAMCountdownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF10C8D475655628BFD0C56 /* ALTAMCountdownWidget.swift */; };
+		7693F442D440C4F47A4981AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EAF509191B7B7E4291769B /* Assets.xcassets */; };
+		7E63BD9B4D0ABA51797C119F /* ThemeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004EFAFBD00C0AD7653C3DD /* ThemeStore.swift */; };
+		910746E07C38634D1DFACCC2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D41397D11711AC29C48D9B /* SwiftUI.framework */; };
+		92C7463E300FD3567417DCAE /* ALTAMCountdownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF10C8D475655628BFD0C56 /* ALTAMCountdownWidget.swift */; };
+		9BD9D27337E8F612CB8849D1 /* ALTAMCountdownWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F8D05E7178B7FC2169E1C /* ALTAMCountdownWidgetBundle.swift */; };
+		A3AD7321589DE97ABDEFA59C /* ThemeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004EFAFBD00C0AD7653C3DD /* ThemeStore.swift */; };
+		B23C247B440D9FB619A7B90C /* ExamCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EE2A6B541513C2FD4BBCD /* ExamCountdown.swift */; };
+		B3F2F649EEB8111AF640BA3D /* ExamCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EE2A6B541513C2FD4BBCD /* ExamCountdown.swift */; };
+		B40D801359F4826D227551CE /* ALTAMCountdownWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F8D05E7178B7FC2169E1C /* ALTAMCountdownWidgetBundle.swift */; };
+		B8B387E6A906DF178FAD7492 /* ALTAMCountdownWidgetiOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0F7B56DC650B2FDCC31C51E6 /* ALTAMCountdownWidgetiOS.appex */; platformFilters = (ios, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D43AA85E82BC0EFB6374E169 /* ExamCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EE2A6B541513C2FD4BBCD /* ExamCountdown.swift */; };
+		DA1FB9670C14CEB6937A33ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B1F366C6438AA4C34006A /* Assets.xcassets */; };
+		E84706A61A9E6F71DFD8BBEC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE33A466338F7C68FF36988 /* WidgetKit.framework */; };
+		E8A7F66205974C8B302D5E87 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2107E11F29FBB87EE3868ED4 /* WidgetTheme.swift */; };
+		F4AD6D6242A94114CC8D7E9E /* ALTAMCountdownWidgetmacOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E5719926EFF854EB06C5992D /* ALTAMCountdownWidgetmacOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF2C1E1A927C5C4866AC290E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAEA16B2F08E3A1F2D1995 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B60ECC3179921F59AF73CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D61755ABE3F47B302911D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A314D4EE4C666E4632A71A;
+			remoteInfo = ALTAMCountdownWidgetiOS;
+		};
+		DAFB10A78A0D9235334535F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D61755ABE3F47B302911D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E5BCF9D2020E2EDB02B7F5;
+			remoteInfo = ALTAMCountdownWidgetmacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E33D40040692BA969FB50B74 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8B387E6A906DF178FAD7492 /* ALTAMCountdownWidgetiOS.appex in Embed Foundation Extensions */,
+				F4AD6D6242A94114CC8D7E9E /* ALTAMCountdownWidgetmacOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F7B56DC650B2FDCC31C51E6 /* ALTAMCountdownWidgetiOS.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ALTAMCountdownWidgetiOS.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEAEA16B2F08E3A1F2D1995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2107E11F29FBB87EE3868ED4 /* WidgetTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTheme.swift; sourceTree = "<group>"; };
+		212CB7FF8256B0B1388E3F0B /* ALTAMCountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTAMCountdownApp.swift; sourceTree = "<group>"; };
+		3730EB75336E6C4935963053 /* ALTAMCountdown.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ALTAMCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D41397D11711AC29C48D9B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5004EFAFBD00C0AD7653C3DD /* ThemeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStore.swift; sourceTree = "<group>"; };
+		5AE1D01C236F7C00DDD8F7CF /* ALTAMCountdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ALTAMCountdown.entitlements; sourceTree = "<group>"; };
+		5DF10C8D475655628BFD0C56 /* ALTAMCountdownWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTAMCountdownWidget.swift; sourceTree = "<group>"; };
+		869F8D05E7178B7FC2169E1C /* ALTAMCountdownWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTAMCountdownWidgetBundle.swift; sourceTree = "<group>"; };
+		8B9B1F366C6438AA4C34006A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956A6449BCD1AD076BD52BBD /* MenuBarCountdownController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCountdownController.swift; sourceTree = "<group>"; };
+		AAE33A466338F7C68FF36988 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C8EAF509191B7B7E4291769B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9EE2A6B541513C2FD4BBCD /* ExamCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCountdown.swift; sourceTree = "<group>"; };
+		E5719926EFF854EB06C5992D /* ALTAMCountdownWidgetmacOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ALTAMCountdownWidgetmacOS.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2034B0407341617E13408796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910746E07C38634D1DFACCC2 /* SwiftUI.framework in Frameworks */,
+				E84706A61A9E6F71DFD8BBEC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23BE14400DE5764142EAA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1795C34BBC56FE8DF0B2607E /* SwiftUI.framework in Frameworks */,
+				64C352AEE180DFD501466687 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EE479D4C71EEB6495A514F = {
+			isa = PBXGroup;
+			children = (
+				E4527A2959B9549F1DBB0F88 /* App */,
+				B78CCBA6B798242EB0F7C25E /* Shared */,
+				4BB2A61C2DBC038623F08EA0 /* Widget */,
+				252E0784FABF1C8627420171 /* Frameworks */,
+				779DC415EF08C674311CC68E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252E0784FABF1C8627420171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D41397D11711AC29C48D9B /* SwiftUI.framework */,
+				AAE33A466338F7C68FF36988 /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB2A61C2DBC038623F08EA0 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5DF10C8D475655628BFD0C56 /* ALTAMCountdownWidget.swift */,
+				869F8D05E7178B7FC2169E1C /* ALTAMCountdownWidgetBundle.swift */,
+				8B9B1F366C6438AA4C34006A /* Assets.xcassets */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		779DC415EF08C674311CC68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3730EB75336E6C4935963053 /* ALTAMCountdown.app */,
+				0F7B56DC650B2FDCC31C51E6 /* ALTAMCountdownWidgetiOS.appex */,
+				E5719926EFF854EB06C5992D /* ALTAMCountdownWidgetmacOS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78CCBA6B798242EB0F7C25E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EE2A6B541513C2FD4BBCD /* ExamCountdown.swift */,
+				5004EFAFBD00C0AD7653C3DD /* ThemeStore.swift */,
+				2107E11F29FBB87EE3868ED4 /* WidgetTheme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E4527A2959B9549F1DBB0F88 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5AE1D01C236F7C00DDD8F7CF /* ALTAMCountdown.entitlements */,
+				212CB7FF8256B0B1388E3F0B /* ALTAMCountdownApp.swift */,
+				C8EAF509191B7B7E4291769B /* Assets.xcassets */,
+				1AEAEA16B2F08E3A1F2D1995 /* ContentView.swift */,
+				956A6449BCD1AD076BD52BBD /* MenuBarCountdownController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A314D4EE4C666E4632A71A /* ALTAMCountdownWidgetiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E4A3F83E653596B161CA57 /* Build configuration list for PBXNativeTarget "ALTAMCountdownWidgetiOS" */;
+			buildPhases = (
+				10C709DA5834A63DB7184EFA /* Sources */,
+				36EF94F2B56A31D2509B9443 /* Resources */,
+				2034B0407341617E13408796 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALTAMCountdownWidgetiOS;
+			packageProductDependencies = (
+			);
+			productName = ALTAMCountdownWidgetiOS;
+			productReference = 0F7B56DC650B2FDCC31C51E6 /* ALTAMCountdownWidgetiOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1A51CA91D6C74E20BEE578E2 /* ALTAMCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC86FA3655DF8AB5FEDE9427 /* Build configuration list for PBXNativeTarget "ALTAMCountdown" */;
+			buildPhases = (
+				F0F5BEC8D13F8F96C1576A9B /* Sources */,
+				C269C07BC2CFB4954C0C3128 /* Resources */,
+				E33D40040692BA969FB50B74 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90983BB456A42D53FE65C5ED /* PBXTargetDependency */,
+				79B4DB8765A3DB3332466748 /* PBXTargetDependency */,
+			);
+			name = ALTAMCountdown;
+			packageProductDependencies = (
+			);
+			productName = ALTAMCountdown;
+			productReference = 3730EB75336E6C4935963053 /* ALTAMCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85E5BCF9D2020E2EDB02B7F5 /* ALTAMCountdownWidgetmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6148ADE3D8C9284946BC0AD /* Build configuration list for PBXNativeTarget "ALTAMCountdownWidgetmacOS" */;
+			buildPhases = (
+				F44698089522D8508788FB5C /* Sources */,
+				0D54CA2E1625E26737E92B65 /* Resources */,
+				D23BE14400DE5764142EAA3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALTAMCountdownWidgetmacOS;
+			packageProductDependencies = (
+			);
+			productName = ALTAMCountdownWidgetmacOS;
+			productReference = E5719926EFF854EB06C5992D /* ALTAMCountdownWidgetmacOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D61755ABE3F47B302911D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04A314D4EE4C666E4632A71A = {
+						DevelopmentTeam = 7YLNYUAHS3;
+						ProvisioningStyle = Automatic;
+					};
+					1A51CA91D6C74E20BEE578E2 = {
+						DevelopmentTeam = 7YLNYUAHS3;
+						ProvisioningStyle = Automatic;
+					};
+					85E5BCF9D2020E2EDB02B7F5 = {
+						DevelopmentTeam = 7YLNYUAHS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 324B786039440B3E39EB8925 /* Build configuration list for PBXProject "ALTAMCountdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 06EE479D4C71EEB6495A514F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A51CA91D6C74E20BEE578E2 /* ALTAMCountdown */,
+				04A314D4EE4C666E4632A71A /* ALTAMCountdownWidgetiOS */,
+				85E5BCF9D2020E2EDB02B7F5 /* ALTAMCountdownWidgetmacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D54CA2E1625E26737E92B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72882F5FEEC75E338370BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EF94F2B56A31D2509B9443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1FB9670C14CEB6937A33ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269C07BC2CFB4954C0C3128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7693F442D440C4F47A4981AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C709DA5834A63DB7184EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB474BEA3C97BBA0B512F35 /* ALTAMCountdownWidget.swift in Sources */,
+				9BD9D27337E8F612CB8849D1 /* ALTAMCountdownWidgetBundle.swift in Sources */,
+				D43AA85E82BC0EFB6374E169 /* ExamCountdown.swift in Sources */,
+				A3AD7321589DE97ABDEFA59C /* ThemeStore.swift in Sources */,
+				4A6ED0B992056C66F4735E46 /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F5BEC8D13F8F96C1576A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238850D9937ACC3B68370339 /* ALTAMCountdownApp.swift in Sources */,
+				FF2C1E1A927C5C4866AC290E /* ContentView.swift in Sources */,
+				B23C247B440D9FB619A7B90C /* ExamCountdown.swift in Sources */,
+				39015BCADF80DF4C82F13D39 /* MenuBarCountdownController.swift in Sources */,
+				255F457A1C392888F2CE0230 /* ThemeStore.swift in Sources */,
+				2E446AA33322FDE29A866F2A /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44698089522D8508788FB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C7463E300FD3567417DCAE /* ALTAMCountdownWidget.swift in Sources */,
+				B40D801359F4826D227551CE /* ALTAMCountdownWidgetBundle.swift in Sources */,
+				B3F2F649EEB8111AF640BA3D /* ExamCountdown.swift in Sources */,
+				7E63BD9B4D0ABA51797C119F /* ThemeStore.swift in Sources */,
+				E8A7F66205974C8B302D5E87 /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79B4DB8765A3DB3332466748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
+			target = 85E5BCF9D2020E2EDB02B7F5 /* ALTAMCountdownWidgetmacOS */;
+			targetProxy = DAFB10A78A0D9235334535F9 /* PBXContainerItemProxy */;
+		};
+		90983BB456A42D53FE65C5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
+			target = 04A314D4EE4C666E4632A71A /* ALTAMCountdownWidgetiOS */;
+			targetProxy = 4B60ECC3179921F59AF73CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030C16C5C509B40A4C9506C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Widget/ALTAMCountdownWidget-iOS.entitlements";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ALTAM;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown.widget;
+				PRODUCT_NAME = ALTAMCountdownWidgetiOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31015164D844D16290313F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/ALTAMCountdown.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ALTAM Countdown";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Kevin Woods";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown;
+				PRODUCT_NAME = "ALTAM Countdown";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		430C3C02AECC22F5073E2928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget/ALTAMCountdownWidget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Widget/Info-macOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ALTAM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown.widget;
+				PRODUCT_NAME = ALTAMCountdownWidgetmacOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		50032903A55293BB4B292997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7YLNYUAHS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6603EE89C4820BF80940ED77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/ALTAMCountdown.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ALTAM Countdown";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Kevin Woods";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown;
+				PRODUCT_NAME = "ALTAM Countdown";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2D359ED1F03650625DF776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Widget/ALTAMCountdownWidget-iOS.entitlements";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ALTAM;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown.widget;
+				PRODUCT_NAME = ALTAMCountdownWidgetiOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4671CBA34B8F5D717E2F62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7YLNYUAHS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5E6E387FCE357BB0D3D34FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget/ALTAMCountdownWidget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Widget/Info-macOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ALTAM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwoods.ALTAMCountdown.widget;
+				PRODUCT_NAME = ALTAMCountdownWidgetmacOS;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324B786039440B3E39EB8925 /* Build configuration list for PBXProject "ALTAMCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4671CBA34B8F5D717E2F62F /* Debug */,
+				50032903A55293BB4B292997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5E4A3F83E653596B161CA57 /* Build configuration list for PBXNativeTarget "ALTAMCountdownWidgetiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030C16C5C509B40A4C9506C7 /* Debug */,
+				AC2D359ED1F03650625DF776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC86FA3655DF8AB5FEDE9427 /* Build configuration list for PBXNativeTarget "ALTAMCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6603EE89C4820BF80940ED77 /* Debug */,
+				31015164D844D16290313F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6148ADE3D8C9284946BC0AD /* Build configuration list for PBXNativeTarget "ALTAMCountdownWidgetmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E6E387FCE357BB0D3D34FA /* Debug */,
+				430C3C02AECC22F5073E2928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D61755ABE3F47B302911D47 /* Project object */;
+}
